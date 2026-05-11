@@ -1,8 +1,7 @@
 # KMNIST Semi-Supervised Classification
 
 This repository contains the training and inference code I used for the Kaggle
-competition [The Art of Computer Vision](https://www.kaggle.com/competitions/the-art-of-computer-vision).
-I achieved Rank 1 of 15 Teams with a 0,975 Accuracy Score in the final Leaderbaord.
+competition [The Art of Computer Vision](https://www.kaggle.com/competitions/the-art-of-computer-vision) where i achieved Rank 1 of 15 Teams with a 0,975 Accuracy Score in the final Leaderbaord.
 The project focuses on learning useful embeddings from a small labeled KMNIST
 set plus a larger unlabeled set, then combining classifier and prototype-based
 predictions for submission generation.
