@@ -1,0 +1,32 @@
+[project]
+name = "kmnist"
+version = "0.1.0"
+description = "Semi-supervised KMNIST training, embedding analysis, and Kaggle submission tooling."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "datasets>=2.14.4",
+    "lightning[extra]>=2.6.1",
+    "matplotlib>=3.10.8",
+    "pillow>=12.1.1",
+    "scikit-learn>=1.8.0",
+    "tensorboard>=2.20.0",
+    "torch>=2.11.0",
+    "torchvision>=0.26.0",
+    "tqdm>=4.66.5",
+    "umap-learn>=0.5.12",
+]
+
+[project.scripts]
+kmnist-train = "kmnist.training.train:main"
+kmnist-staged-train = "kmnist.training.staged_self_training:main"
+kmnist-analyze = "kmnist.analysis.cli:main"
+kmnist-submit = "kmnist.submission.cli:main"
+kmnist-tensorboard = "kmnist.training.tensorboard_server:main"
+
+[build-system]
+requires = ["setuptools>=70.0"]
+build-backend = "setuptools.build_meta"
+
+[[tool.uv.index]]
+url = "https://download.pytorch.org/whl/cu126"
