@@ -17,6 +17,24 @@ predictions for submission generation.
 - Submission generation with classifier, prototype, k-means, and ensemble
   prediction modes.
 
+## Example images
+
+These root-level PNG files are sample 28x28 grayscale KMNIST images:
+
+<p>
+  <img src="img_01000.png" alt="KMNIST example img_01000" width="64">
+  <img src="img_01001.png" alt="KMNIST example img_01001" width="64">
+  <img src="img_01002.png" alt="KMNIST example img_01002" width="64">
+  <img src="img_01003.png" alt="KMNIST example img_01003" width="64">
+  <img src="img_01004.png" alt="KMNIST example img_01004" width="64">
+  <img src="img_01005.png" alt="KMNIST example img_01005" width="64">
+  <img src="img_01006.png" alt="KMNIST example img_01006" width="64">
+  <img src="img_01007.png" alt="KMNIST example img_01007" width="64">
+  <img src="img_01008.png" alt="KMNIST example img_01008" width="64">
+  <img src="img_01009.png" alt="KMNIST example img_01009" width="64">
+  <img src="img_01010.png" alt="KMNIST example img_01010" width="64">
+</p>
+
 ## Repository layout
 
 ```text
